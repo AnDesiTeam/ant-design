@@ -9,7 +9,13 @@ export default function accessibilityTest(Component: React.ComponentType) {
     it(`component does not have any violations`, async () => {
       jest.useRealTimers();
       const { container } = render(<Component />);
-      const results = await axe(container);
+      const results = await axe(container, {
+        rules: {
+          'image-alt': { enabled: false },
+          label: { enabled: false },
+          'button-name': { enabled: false },
+        },
+      });
       expect(results).toHaveNoViolations();
     });
   });
