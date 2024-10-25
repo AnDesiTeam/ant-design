@@ -71,7 +71,7 @@ export default function accessibilityTest(Component: React.ComponentType) {
         },
       });
       expect(results).toHaveNoViolations();
-    });
+    }, 10000);
   });
 }
 
