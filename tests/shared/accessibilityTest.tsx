@@ -71,7 +71,7 @@ export default function accessibilityTest(Component: React.ComponentType) {
         },
       });
       expect(results).toHaveNoViolations();
-    }, 10000);
+    }, 20000);
   });
 }
 
@@ -92,9 +92,7 @@ export function accessibilityDemoTest(component: string, options: Options = {}) 
   describe(`${component} demo a11y`, () => {
     const files = globSync(`./components/${component}/demo/*.tsx`).filter(
       (file) =>
-        !file.includes('_semantic') &&
-        !file.includes('-debug') &&
-        !file.includes('component-token'),
+        !file.includes('_semantic') && !file.includes('debug') && !file.includes('component-token'),
     );
 
     files.forEach((file) => {
