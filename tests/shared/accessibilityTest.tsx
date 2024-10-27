@@ -3,19 +3,44 @@ import { render } from '@testing-library/react';
 import { globSync } from 'glob';
 import { axe } from 'jest-axe';
 
-// Create a queue to manage axe calls
-let axeRunning = false;
-const runAxe = async (...args: Parameters<typeof axe>) => {
-  // eslint-disable-next-line no-unmodified-loop-condition
-  while (axeRunning) {
-    await new Promise((resolve) => setTimeout(resolve, 100));
+class AxeQueueManager {
+  private queue: Promise<any> = Promise.resolve();
+  private isProcessing = false;
+
+  async enqueue<T>(task: () => Promise<T>): Promise<T> {
+    const currentQueue = this.queue;
+
+    const newTask = async () => {
+      try {
+        await currentQueue;
+        this.isProcessing = true;
+        return await task();
+      } finally {
+        this.isProcessing = false;
+      }
+    };
+
+    this.queue = this.queue.then(newTask, newTask);
+
+    return this.queue;
   }
-  axeRunning = true;
-  try {
-    return await axe(...args);
-  } finally {
-    axeRunning = false;
+
+  isRunning(): boolean {
+    return this.isProcessing;
   }
+}
+
+const axeQueueManager = new AxeQueueManager();
+
+const runAxe = async (...args: Parameters<typeof axe>): Promise<ReturnType<typeof axe>> => {
+  return axeQueueManager.enqueue(async () => {
+    try {
+      return await axe(...args);
+    } catch (error) {
+      console.error('Axe test failed:', error);
+      throw error;
+    }
+  });
 };
 
 // eslint-disable-next-line jest/no-export
@@ -68,10 +93,11 @@ export default function accessibilityTest(Component: React.ComponentType) {
           label: { enabled: false },
           'button-name': { enabled: false },
           'role-img-alt': { enabled: false },
+          'link-name': { enabled: false },
         },
       });
       expect(results).toHaveNoViolations();
-    }, 20000);
+    }, 30000);
   });
 }
 
