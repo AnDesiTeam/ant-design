@@ -1588,6 +1588,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -1601,6 +1602,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -1648,6 +1650,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="config-select config-select-outlined config-picker-calendar-month-select config-select-single config-select-show-arrow"
       >
         <div
@@ -1661,6 +1664,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -2529,6 +2533,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -2542,6 +2547,7 @@ exports[`ConfigProvider components Calendar configProvider 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -2876,6 +2882,7 @@ exports[`ConfigProvider components Calendar configProvider componentDisabled 1`]
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow config-select-disabled"
       >
         <div
@@ -2889,6 +2896,7 @@ exports[`ConfigProvider components Calendar configProvider componentDisabled 1`]
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -2937,6 +2945,7 @@ exports[`ConfigProvider components Calendar configProvider componentDisabled 1`]
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="config-select config-select-outlined config-picker-calendar-month-select config-select-single config-select-show-arrow config-select-disabled"
       >
         <div
@@ -2950,6 +2959,7 @@ exports[`ConfigProvider components Calendar configProvider componentDisabled 1`]
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -3821,6 +3831,7 @@ exports[`ConfigProvider components Calendar configProvider componentDisabled 1`]
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow config-select-disabled"
       >
         <div
@@ -3834,6 +3845,7 @@ exports[`ConfigProvider components Calendar configProvider componentDisabled 1`]
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -4171,6 +4183,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize large 1
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-lg config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -4184,6 +4197,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize large 1
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -4231,6 +4245,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize large 1
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="config-select config-select-lg config-select-outlined config-picker-calendar-month-select config-select-single config-select-show-arrow"
       >
         <div
@@ -4244,6 +4259,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize large 1
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -5112,6 +5128,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize large 1
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-lg config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -5125,6 +5142,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize large 1
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -5459,6 +5477,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize middle 
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -5472,6 +5491,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize middle 
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -5519,6 +5539,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize middle 
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="config-select config-select-outlined config-picker-calendar-month-select config-select-single config-select-show-arrow"
       >
         <div
@@ -5532,6 +5553,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize middle 
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -6400,6 +6422,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize middle 
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -6413,6 +6436,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize middle 
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -6747,6 +6771,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize small 1
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-sm config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -6760,6 +6785,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize small 1
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -6807,6 +6833,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize small 1
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="config-select config-select-sm config-select-outlined config-picker-calendar-month-select config-select-single config-select-show-arrow"
       >
         <div
@@ -6820,6 +6847,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize small 1
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -7688,6 +7716,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize small 1
       class="config-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="config-select config-select-sm config-select-outlined config-picker-calendar-year-select config-select-single config-select-show-arrow"
       >
         <div
@@ -7701,6 +7730,7 @@ exports[`ConfigProvider components Calendar configProvider componentSize small 1
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="config-select-selection-search-input"
@@ -8035,6 +8065,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
       class="ant-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="ant-select ant-select-outlined ant-picker-calendar-year-select ant-select-single ant-select-show-arrow"
       >
         <div
@@ -8048,6 +8079,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="ant-select-selection-search-input"
@@ -8095,6 +8127,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="ant-select ant-select-outlined ant-picker-calendar-month-select ant-select-single ant-select-show-arrow"
       >
         <div
@@ -8108,6 +8141,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="ant-select-selection-search-input"
@@ -8976,6 +9010,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
       class="ant-picker-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="ant-select ant-select-outlined ant-picker-calendar-year-select ant-select-single ant-select-show-arrow"
       >
         <div
@@ -8989,6 +9024,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="ant-select-selection-search-input"
@@ -9323,6 +9359,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
       class="prefix-Calendar-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="ant-select ant-select-outlined prefix-Calendar-calendar-year-select ant-select-single ant-select-show-arrow"
       >
         <div
@@ -9336,6 +9373,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="ant-select-selection-search-input"
@@ -9383,6 +9421,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
         </span>
       </div>
       <div
+        aria-label="month-select"
         class="ant-select ant-select-outlined prefix-Calendar-calendar-month-select ant-select-single ant-select-show-arrow"
       >
         <div
@@ -9396,6 +9435,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="month-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="ant-select-selection-search-input"
@@ -10264,6 +10304,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
       class="prefix-Calendar-calendar-header"
     >
       <div
+        aria-label="year-select"
         class="ant-select ant-select-outlined prefix-Calendar-calendar-year-select ant-select-single ant-select-show-arrow"
       >
         <div
@@ -10277,6 +10318,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
               aria-controls="rc_select_TEST_OR_SSR_list"
               aria-expanded="false"
               aria-haspopup="listbox"
+              aria-label="year-select"
               aria-owns="rc_select_TEST_OR_SSR_list"
               autocomplete="off"
               class="ant-select-selection-search-input"
@@ -25268,6 +25310,7 @@ exports[`ConfigProvider components Skeleton configProvider 1`] = `
     class="config-skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="config-skeleton-title"
       style="width: 50%;"
     />
@@ -25296,6 +25339,7 @@ exports[`ConfigProvider components Skeleton configProvider componentDisabled 1`]
     class="config-skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="config-skeleton-title"
       style="width: 50%;"
     />
@@ -25324,6 +25368,7 @@ exports[`ConfigProvider components Skeleton configProvider componentSize large 1
     class="config-skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="config-skeleton-title"
       style="width: 50%;"
     />
@@ -25352,6 +25397,7 @@ exports[`ConfigProvider components Skeleton configProvider componentSize middle 
     class="config-skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="config-skeleton-title"
       style="width: 50%;"
     />
@@ -25380,6 +25426,7 @@ exports[`ConfigProvider components Skeleton configProvider componentSize small 1
     class="config-skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="config-skeleton-title"
       style="width: 50%;"
     />
@@ -25408,6 +25455,7 @@ exports[`ConfigProvider components Skeleton normal 1`] = `
     class="ant-skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="ant-skeleton-title"
       style="width: 50%;"
     />
@@ -25436,6 +25484,7 @@ exports[`ConfigProvider components Skeleton prefixCls 1`] = `
     class="prefix-Skeleton-content"
   >
     <h3
+      aria-label="title is loading"
       class="prefix-Skeleton-title"
       style="width: 50%;"
     />
